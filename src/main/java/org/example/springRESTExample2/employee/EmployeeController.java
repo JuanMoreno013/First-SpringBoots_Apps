@@ -4,7 +4,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
+@RestController(value = "Project1")
+@RequestMapping("/project1")
 public class EmployeeController {
 
     @GetMapping("/employees")
